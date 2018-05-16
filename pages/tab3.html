@@ -1,0 +1,18 @@
+
+<br>
+<br>
+<div ng-controller="tab3Controller">
+    <form ng-submit="todoAdd()">
+        <input type="text" ng-model="todoInput">
+        <input type="submit" value="Add New">
+        <br>
+
+    </form>
+
+    <div ng-repeat="x in todoList">
+        <input type="checkbox" ng-model="x.done"> {{x.todoText}}
+    </div>
+
+    <p><button ng-click="remove()">Remove marked</button></p>
+</div>
+

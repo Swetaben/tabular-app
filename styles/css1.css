@@ -1,0 +1,26 @@
+#nav{
+    background-color: lightgrey;
+}
+
+.container{
+    border: 2px solid black;
+    height: 600px;
+    margin-top: 20px;
+
+}
+
+.imgstyle{
+    height: 220px;
+    width:200px;
+    margin-left:12px;
+}
+
+.imgstyle:hover{
+    box-shadow: 0px 0px 20px 5px gray;
+}
+
+#specialimg{
+    margin-bottom: 10px;
+    margin-left:12px ;
+
+}

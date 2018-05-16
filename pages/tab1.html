@@ -1,0 +1,13 @@
+<div ng-controller="tab1Controller">
+    <br>
+    <p>Select options:</p>
+
+    <select ng-model="selectedchoice" ng-options="x.name for x in choicess" ng-change="filterValues()"></select>
+
+    <p>You have selected: {{selectedchoice.name}}</p>
+
+    <ul>
+        <li ng-repeat="fname in filenames">{{fname}}</li>
+    </ul>
+
+</div>

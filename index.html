@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles/css1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body style="background-color: lightgray">
+
+    <div class="container">
+    <h3></h3>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#/!">TAB 1</a></li>
+            <li><a href="#!tab2">TAB 2</a></li>
+            <li><a href="#!tab3">TAB 3</a></li>
+        </ul>
+        <div ng-view=""></div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
